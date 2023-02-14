@@ -10,37 +10,7 @@
     background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
-.Listbanner-container{
-    background-image: linear-gradient(0deg, rgba(10, 63, 28, 0.6), rgba(42, 74, 108, 0.6)),url('../Image/ListBanner.png');
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Poppins', sans-serif;
-}
-.ListBanner-pageTitle{
-    max-width: 400px;
-    color:#ffffff;
-    text-align: center;
-}
-.ListBanner-button{
-    font-size: 20px;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-}
-.ListBanner-button button{
-    border: none;
-    outline: none;
-    background-color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: #103E35;
-}
+
 .banner-main{
     width:80%;
     height:90%;
@@ -126,6 +96,92 @@
     cursor: pointer;
 }
 
+/* ----------Listbanner------------ */
+.Listbanner-container{
+    background-image: linear-gradient(0deg, rgba(10, 63, 28, 0.6), rgba(42, 74, 108, 0.6)),url('../Image/ListBanner.png');
+    width: 100%;
+    min-height:80vh;
+    max-height: auto;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.ListBanner-pageTitle{
+    max-width: 400px;
+    color:#ffffff;
+    text-align: center;
+}
+.ListBanner-button{
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.ListBanner-button button{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #103E35;
+}
+
+
+/* ------------Listbanner------------ */
+
+
+
+/* ------------Listbrowser---------------- */
+.browserMain{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.browser-searchPara{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.browser-select{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.browser-select select{
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+}
+.browser-select button{
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #103E35;
+    background-color: #F2F2F2;
+
+}
+/* --------------Listbrowser------------- */
+
 
 @media (max-width:900px) {
     .banner-container{
@@ -187,6 +243,7 @@
         font-size: 20px;
         color: #ffffff;
     }
+/* -------------------------------- */
     .ListBanner-pageTitle{
     max-width: 330px;
     color:#ffffff;
@@ -198,4 +255,29 @@
     .ListBanner-button button{
      padding: 5px 10px !important;
     }
+/* ---------------------------------- */
+.browser-searchPara strong{
+  font-size: 15px;
+}
+.browser-select select{
+    width: 100%;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    background-color: #F2F2F2;
+    font-size: 13px;
+}
+.browser-select option{
+    background-color:rebeccapurple;
+    color: #ffffff;
+    font-size: 10px;
+}
+.browser-select button{
+    padding:2px 10px;
+    border-radius: 5px;
+
+}
 }

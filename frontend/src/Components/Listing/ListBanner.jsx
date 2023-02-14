@@ -1,5 +1,5 @@
 import React from 'react'
-import '/React/frontend/src/Styles/Banner.css'
+import "../../Styles/Banner.css"
 
 
 const ListBanner = () => {

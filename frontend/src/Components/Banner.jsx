@@ -1,23 +1,36 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 import '../Styles/Banner.css'
 import axios from 'axios'
+import { useDispatch } from 'react-redux'
+import { selectList } from '../Redux/Slice'
+import { useSelector } from 'react-redux'
 
 
 const Banner = () => {
 
-    const [data,setData]=useState([])
-    const [condition,setCondition]=useState([])
+ 
+
+    const dispatch =useDispatch()
+    const location = useSelector((state)=>state.Rehabpy.selectLocation.location)
+    const condition = useSelector((state)=>state.Rehabpy.selectCondition.conditions)
+
+
 
     useEffect(()=>{
 
         const locationData= async()=>{
-            const {data} = await axios.get("http://localhost:5000/location")
+            const LocationResult = await axios.get("http://localhost:5000/location")
             const ConditionResult = await axios.get("http://localhost:5000/condition")
-            setData(data)
-            setCondition(ConditionResult.data)
+
+            dispatch(selectList({
+              location:LocationResult.data,
+              conditions:ConditionResult.data
+            }))
+
+
         }
         locationData()
-    },[])
+    },[dispatch])
 
   return (
     <div className='banner-container'>
@@ -38,7 +51,7 @@ const Banner = () => {
                     <select>
                         <optgroup>
                           {
-                            data.map((item,index)=>(
+                            location.map((item,index)=>(
                                 <option key={index}>{item.country}</option>
                             )                                  
                             )

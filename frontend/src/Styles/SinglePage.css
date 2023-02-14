@@ -1,0 +1,289 @@
+.page-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F2F2F2;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 10px;
+}
+.page-row{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.page-row1{
+    flex: 40%;
+}
+.page-rowImg{
+    width:430px;
+    height: 310px;
+    /* position: relative; */
+}
+.page-rowImg>img{
+    width: 100%;
+    height: 100%;
+}
+.page-row2{
+    width: 100%;
+    height: 100%;
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0.5rem;
+}
+.page-row2Title>h2{
+    font-size:18px;
+    color:#103E35;
+}
+.pageLocation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.pageLocation button{
+    display: none;
+}
+.Pagestars{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content:flex-start;
+    align-items: center;
+}
+.Pagestars>span>svg{
+    color: #FFB800;
+}
+.Pagestars>span>svg:last-child{
+    color: #C4C4C4;
+}
+.pageButtonList{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.pageButtonList button{
+    border: none;
+    outline: none;
+    background-color:  #D9D9D9;
+    font-size: 14px;
+    padding:8px 15px;
+    border-radius: 5px;
+}
+.pagePara{
+    color:  #505050;
+    font-size: 14px;
+}
+.pageEnd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pageprice{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+}
+.pageprice>p{
+    margin: 2px !important;
+}
+.pageEnd h2{
+    font-size: 20px;
+}
+.pageBookBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pageBookBtn button{
+    border: none;
+    outline: none;
+    background-color:  #103E35;
+    font-size: 18px;
+    padding:8px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.page-row3{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.page-row3{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px
+}
+.paga-rowImg{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.paga-rowImg span{
+    width: 180px;
+    height: 130px;
+}
+.paga-rowImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.paga-rowImg span:last-child{
+    width: 180px;
+    height: 120px;
+}
+.paga-rowImg span:last-child{
+    border: 1px dashed #103E35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+@media (max-width:900px){
+    .page-rowImg{
+        width:330px;
+        height: 310px;
+    }
+    .page-rowImg>img{
+        width:100%;
+        height:100%;
+    }
+    .page-row2{
+        gap:0.1rem;
+    }
+    .pageButtonList button{
+        font-size: 12px;
+        padding:5px 10px;
+        border-radius: 5px;
+    }
+    .Pagestars{
+        gap:0.5rem;
+    }
+    .pagePara{
+        font-size: 12px;
+    }
+    .pageprice{
+        height: 30px;
+    }
+    .pageEnd h2{
+        font-size: 15px;
+    }
+    .pageBookBtn button{
+        border: none;
+        outline: none;
+        background-color:  #103E35;
+        font-size: 14px;
+        padding:8px 10px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    .paga-rowImg span{
+        width: 130px;
+        height: 100px;
+    }
+    .paga-rowImg span:last-child{
+        width: 130px;
+        height: 90px;
+        font-size: 12px;
+    }
+
+}
+@media (max-width:400px) {
+    .paga-rowImg{
+        display: none;
+    }
+    .page-row{  
+        flex-direction:column;
+    }
+    .page-rowImg{
+        width:310px;
+        height:210px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page-rowImg>img{
+        width:100%;
+        height:100%;
+    }
+    .page-row2{
+        gap:0.4rem;
+    }
+    .pageButtonList button{
+        font-size: 10px;
+        padding:5px 10px;
+        border-radius: 5px;
+    }
+    .Pagestars{
+        gap:0.2rem;
+    }
+    .Pagestars>span{
+        font-size: 13px;
+    }
+    .page-row2Title>h2{
+        font-size: 15px;
+    }
+    .pagePara{
+        font-size: 10px;
+    }
+    .pageprice{
+        height: 30px;
+    }
+    .pageEnd h2{
+        font-size: 15px;
+    }
+    .pageBookBtn button{
+        border: none;
+        outline: none;
+        background-color:  #103E35;
+        font-size: 14px;
+        padding:8px 10px;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+    .paga-rowImg span{
+        width: 130px;
+        height: 100px;
+    }
+    .paga-rowImg span:last-child{
+        width: 130px;
+        height: 90px;
+        font-size: 12px;
+    }
+    .pageLocation button{
+        display:block;
+        border:none;
+        outline: none;
+        background-color: #D9D9D9;
+        border-radius: 2px;
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+}

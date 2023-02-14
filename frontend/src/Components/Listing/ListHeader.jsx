@@ -1,5 +1,5 @@
 import React from 'react'
-import "D:/React/frontend/src/Styles/Header.css"
+import "../../Styles/Header.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';

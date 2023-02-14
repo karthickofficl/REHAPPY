@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/Country.css'
-import fleximage from '../Image/fleximage.jpg'
 
 const countryList = [
     {

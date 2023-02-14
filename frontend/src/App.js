@@ -11,6 +11,7 @@ import AboutUs from './Components/AboutUs';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
 import Listing from './Components/Listing/Listing';
+import Detail from './Components/DetailPage/Detail';
 
 
 
@@ -18,7 +19,7 @@ import Listing from './Components/Listing/Listing';
 function App() {
   return (
     <div className="App">
-      {/* <Header/>
+      <Header/>
       <Banner/>
       <Country/>
       <Advertise/>
@@ -28,8 +29,9 @@ function App() {
       <Feature/>
       <AboutUs/>
       <FAQ/>
-      <Footer/> */}
+      <Footer/>
       <Listing/>
+      <Detail/>
     </div>
   );
 }
