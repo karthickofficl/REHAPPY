@@ -1,0 +1,170 @@
+const data = {
+    Location: [
+        {
+            country: "Australia"
+        },
+        {
+            country: "california"
+        },
+        {
+            country: "SouthAfrica"
+        },
+        {
+            country: "Malbourn"
+        },
+        {
+            country: "Thailand"
+        },
+        {
+            country: "India",
+        },
+        {
+            country: "China"
+        }
+
+    ],
+    Condition:[
+        [
+            {
+              conditons:"Addictions"
+            },
+            {
+              conditons:"ADHD, ADD"
+            },
+            {
+              conditons:"Alcohol"
+            },
+            {
+              conditons:"Anger"
+            },
+            {
+              conditons:"Anxiety"
+            },
+            {
+              conditons:"Benzodiazepines"
+            },
+            {
+              conditons:"Bipolar"
+            },
+            {
+              conditons:"Burnout"
+            },
+            {
+              conditons:"Chronic Pain Management"
+            },
+            {
+              conditons:"Chronic Relapse"
+            },
+            {
+              conditons:"Co-Occurring Disorders"
+            },
+            {
+              conditons:"Cocaine"
+            },
+            {
+              conditons:"Codependency"
+            },
+            {
+              conditons:"Depression"
+            },
+            {
+              conditons:"Drug Addiction"
+            },
+            {
+              conditons:"Eating Disorders"
+            },
+            {
+              conditons:"Ecstasy"
+            },
+            {
+              conditons:"Gambling"
+            },
+            {
+              conditons:"Gaming"
+            },
+            {
+              conditons:"Grief and Loss"
+            },
+            {
+              conditons:"Heroin"
+            },
+            {
+              conditons:"Internet Addiction"
+            },
+            {
+              conditons:"Marijuana"
+            },
+            {
+              conditons:"Methamphetamine"
+            },
+            {
+              conditons:"Narcissism"
+            },
+            {
+              conditons:"Neurodiversity"
+            },
+            {
+              conditons:"Nicotine"
+            },
+            {
+              conditons:"Obsessive Compulsive Disorder"
+            },
+            {
+              conditons:"Opioids"
+            },
+            {
+              conditons:"Perinatal Mental Health"
+            },
+            {
+              conditons:"Personality Disorders"
+            },
+            {
+              conditons:"Pornography"
+            },
+            {
+              conditons:"Post Traumatic Stress Disorder"
+            },
+            {
+              conditons:"Prescription Drugs"
+            },
+            {
+              conditons:"Psychedelics"
+            },
+            {
+              conditons:"Schizophrenia"
+            },
+            {
+              conditons:"Grief and Loss"
+            },
+            {
+              conditons:"Self-Harm"
+            },
+            {
+              conditons:"Sex Addiction"
+            },
+            {
+              conditons:"Shopping"
+            },
+            {
+              conditons:"Smoking Cessation"
+            },
+            {
+              conditons:"Stress"
+            },
+            {
+              conditons:"Suicidality"
+            },
+            {
+              conditons:"Synthetic Drugs"
+            },
+            {
+              conditons:"Trauma"
+            },
+            {
+              conditons:"Weight Loss"
+            }
+          ]          
+    ]
+}
+
+module.exports=data

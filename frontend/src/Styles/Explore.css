@@ -1,0 +1,119 @@
+.explore-main{
+    width: 100%;
+    height:auto;
+}
+.explore-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: #103E35;
+    flex-wrap:wrap;
+    padding: 10px;
+
+}
+.explore-scroll{
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.explore-header{
+    flex: 80%;
+}
+.explore-content{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width:780px){
+    .explore-content{
+        flex-wrap: nowrap;
+    }
+    .explore-scroll{
+        overflow-x: auto;
+        justify-content: flex-start;
+
+    }
+    .explore-title>h1{
+        font-size: 20px !important;
+    }
+}
+@media (max-width:780px){
+    .explore-title>h1{
+        font-size: 12px !important;
+    }
+}
+.explore-title{
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+    .explore-title>h1{
+        font-size: 30px;
+    }
+.explore-contentMain{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    border-radius:10px;
+}
+.explore-image{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius:10px;
+}
+.explore-image>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin:0;
+}
+.explore-mainTitle{
+    position: absolute;
+    text-align: center;
+    right: 20px;
+    left: 20px;
+    bottom:20px;
+    color: #ffffff;
+    background-image: linear-gradient(0deg, rgba(1, 2, 4, 0.9), rgba(0, 0, 0, 0.9)) ;
+   border-radius: 10px;
+}
+.explore-mainTitle>h3{
+    font-size: 15px;
+}
+.explore-mainTitle>p{
+font-size: 10px;
+}
+.explore-button{
+   width: 100%;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   flex-direction: row;
+}
+.explore-button button{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.explore-icon{
+    color: #ffffff;
+    font-size: 40px;
+}

@@ -1,0 +1,142 @@
+.treatment-container{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.treatment-main{
+     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+.treatment-header:first-child{
+    flex:20%;
+    
+}
+.headingTitle{
+    flex-wrap: nowrap;
+     width: 100%;
+     display: flex;
+}
+.Tab-headingTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+@media (max-width:780px){
+    .Tab-headingTitle{
+        justify-content: flex-start;
+    }
+    .headingTitle{
+        overflow-x:auto;
+        white-space: nowrap;
+    }
+    ::-webkit-scrollbar {
+        height: 8px;
+        overflow: visible;
+        width: 8px;
+    }
+}
+
+
+.treatment-title{
+    margin: 10px; 
+    font-size: 18px;
+    font-weight: 900px;
+}
+.treatment-title:hover{
+    border-bottom: 2px solid #103E35;
+}
+.treatment-header:last-child{
+    flex:80%;
+}
+.headingTitleBox{
+     flex-wrap: nowrap;
+     width: 100%;
+     display: flex;
+}
+.treatment-headerBox{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:780px){
+    .treatment-headerBox{
+        justify-content: flex-start;
+        flex-wrap:nowrap;
+
+    }
+    .headingTitleBox{
+        overflow-x:auto;
+    }
+    /* .treatment-headerBox{
+        flex-wrap:nowrap;
+    } */
+    .treatment-headerMain{
+        padding: 10px;
+        max-width:200px;
+        height:320px;
+        margin:10px;
+    }
+}
+
+.treatment-headerMain{
+    padding: 10px;
+    max-width:330px;
+    height:350px;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.treatment-headerMain>h3{
+    font-size: 20px;
+    color: #103E35;
+}
+.treatment-headerMain>h6{
+    font-size: 13px;
+    color: #444444;
+}
+.treatment-headerMain>p{
+    font-size: 12px;
+    color: #444444;
+}
+.treatment-image{
+    width: 320px;
+    height: 300px;
+    position: relative;
+}
+.treatment-image>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.treatment-button{
+    width: 250px;
+    height: 60px;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #103E35;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.treatment-icon{
+        width: 100px;
+    font-size:40px;
+}
