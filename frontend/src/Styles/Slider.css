@@ -1,0 +1,21 @@
+.sliderMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.sliderMain img{
+    background-image: linear-gradient(0deg, rgba(10, 63, 28, 0.6), rgba(42, 74, 108, 0.6));
+}
+.carousel-control-next-icon {
+    display: none !important;
+}
+.carousel-control-prev-icon {
+    display: none !important;
+}
+.carousel-indicators {
+    display: none !important;
+}

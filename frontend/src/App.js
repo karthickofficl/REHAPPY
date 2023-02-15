@@ -1,15 +1,4 @@
-import Header from './Components/Header';
-import './App.css';
-import Banner from './Components/Banner';
-import Country from './Components/Country';
-import Advertise from './Components/Advertise';
-import Treatment from './Components/Treatment';
-import Explore from './Components/Explore';
-import LatestNews from './Components/LatestNews';
-import Feature from './Components/Feature';
-import AboutUs from './Components/AboutUs';
-import FAQ from './Components/FAQ';
-import Footer from './Components/Footer';
+import Home from './Components/HomePage/Home'
 import Listing from './Components/Listing/Listing';
 import Detail from './Components/DetailPage/Detail';
 
@@ -19,18 +8,8 @@ import Detail from './Components/DetailPage/Detail';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Country/>
-      <Advertise/>
-      <Treatment/>
-      <Explore/>
-      <LatestNews/> 
-      <Feature/>
-      <AboutUs/>
-      <FAQ/>
-      <Footer/>
-      <Listing/>
+      {/* <Home/>
+      <Listing/> */}
       <Detail/>
     </div>
   );
