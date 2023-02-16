@@ -8,8 +8,8 @@ import Detail from './Components/DetailPage/Detail';
 function App() {
   return (
     <div className="App">
-      {/* <Home/>
-      <Listing/> */}
+      <Home/>
+      <Listing/>
       <Detail/>
     </div>
   );

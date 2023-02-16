@@ -1,0 +1,15 @@
+.tabMain{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.tabContainer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: aqua;
+    color: aliceblue;
+}

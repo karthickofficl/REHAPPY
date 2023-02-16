@@ -72,6 +72,9 @@
         display: flex;
         justify-content:flex-start;
     }
+    .staffMain{
+        min-height:40vh;
+    }
 }
 @media (max-width:500px){
     .staffScroll{

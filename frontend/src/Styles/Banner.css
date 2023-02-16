@@ -36,6 +36,7 @@
     filter: brightness(1);
 }
 .banner-pageTitle{
+    width: 100%;
     margin: 10px;
     padding: 10px;
     color: #ffffff;
@@ -45,6 +46,7 @@
 }
 .banner-search{
     min-width: 400px;
+    height: auto;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
@@ -205,6 +207,21 @@
 
 }
 @media (max-width:450px) {
+
+    .banner-searchPara{
+        margin: 10px;
+        letter-spacing: 2px;
+        font-size: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+
+    .banner-pageTitle>h2{
+        line-height:30px;
+        font-size: 13px;
+    }
     .banner-select{
         flex-direction:column;
 
@@ -280,4 +297,26 @@
     border-radius: 5px;
 
 }
+}
+@media (max-width:325px) {
+    .banner-pageTitle>h2{
+        font-size: 20px;
+    }
+    .banner-search{
+        height: auto;
+    }
+    .banner-search button{
+        font-size: 12px;
+    }
+
+
+    .banner-searchPara>p{
+        font-size: 15px;
+    }
+
+    .banner-pageTitle>h2{
+        line-height:30px;
+        font-size: 13px;
+    }
+
 }

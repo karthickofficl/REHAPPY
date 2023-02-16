@@ -215,7 +215,7 @@
     }
 
 }
-@media (max-width:400px) {
+@media (max-width:450px) {
     .paga-rowImg{
         display: none;
     }
@@ -285,5 +285,14 @@
         border-radius: 2px;
         font-size: 10px;
         padding: 2px 5px;
+    }
+}
+@media (max-width:325px) {
+    .page-rowImg{
+        width:250px;
+        height:210px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

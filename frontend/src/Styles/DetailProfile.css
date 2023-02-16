@@ -89,9 +89,13 @@ font-size: 13px;
     .profileContainer{
         width: 90%;
         display: flex;
-        justify-content: center; 
-        margin:2rem 1rem;
+        justify-content:space-evenly; 
     }
+    .profileDetails p{
+        min-width: 100px;
+        font-size: 11px;
+        font-weight: 400;
+        }
 }
 @media (max-width:500px) {
     .profileContainer{
