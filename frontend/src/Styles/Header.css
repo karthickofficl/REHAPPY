@@ -11,6 +11,8 @@
     display: flex;
     justify-content: space-around;
     color: #ffffff; 
+    font-family: 'Poppins', sans-serif; 
+
 }
 .Header-content{
     display: flex;
@@ -51,7 +53,7 @@
 .navbar-brand{
     color: #fff !important;
 }
-body .nav-link{
+.me-auto>.nav-link{
     color: #fff ;
     margin-right: 20px !important;
     display: flex !important;

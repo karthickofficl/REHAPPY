@@ -16,6 +16,8 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+    margin: 20px 10px;
 }
 .page-row{
     width: 100%;
@@ -29,7 +31,7 @@
     flex: 40%;
 }
 .page-rowImg{
-    width:430px;
+    width:470px;
     height: 310px;
     /* position: relative; */
 }
@@ -44,7 +46,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
     gap:0.5rem;
+
 }
 .page-row2Title>h2{
     font-size:18px;
@@ -134,8 +138,8 @@
     width: 100%;
     display: flex;
     justify-content:flex-start;
-    align-items: center;
-    padding: 10px
+    align-items:flex-start;
+    padding: 10px 0px;
 }
 .paga-rowImg{
     width: 100%;
@@ -151,7 +155,6 @@
     width: 100%;
     height: 100%;
 }
-
 .paga-rowImg span:last-child{
     width: 180px;
     height: 120px;
@@ -167,9 +170,12 @@
 }
 
 @media (max-width:900px){
+    .page-container{
+        width: 90%;
+    }
     .page-rowImg{
-        width:330px;
-        height: 310px;
+        width:310px;
+        height:290px;
     }
     .page-rowImg>img{
         width:100%;
@@ -189,9 +195,7 @@
     .pagePara{
         font-size: 12px;
     }
-    .pageprice{
-        height: 30px;
-    }
+
     .pageEnd h2{
         font-size: 15px;
     }
@@ -223,7 +227,8 @@
         flex-direction:column;
     }
     .page-rowImg{
-        width:310px;
+        width:300px;
+        margin-left: 10px;
         height:210px;
         display: flex;
         justify-content: center;

@@ -15,12 +15,12 @@ const Detail = () => {
         <DetailHeader/>
         <DetailSlider/>
         <DetailProfile/>
+        <TabsBox/>
         <DetailStaff/>
         <DetailOffer/>
         <DetailInsur/>
         <Testimonial/>
         <Queries/>
-        {/* <TabsBox/> */}
     </div>
   )
 }

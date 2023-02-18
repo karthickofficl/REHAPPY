@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     background-color: #D9D9D9;
+    font-family: 'Poppins', sans-serif; 
+
 }
 
 .queryImg>img{
@@ -230,5 +232,8 @@
     .queryContent h2{
         font-size: 20px;
     }
-
+    .queryImg>img{
+        max-width:250px;
+        height:300px;
+    }
 }

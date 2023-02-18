@@ -11,6 +11,7 @@
     background-color: #103E35;
     flex-wrap:wrap;
     padding: 10px;
+    font-family: 'Poppins', sans-serif; 
 
 }
 .explore-scroll{
@@ -29,6 +30,25 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.explore-scroll>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+
+.explore-scroll svg{
+    /* background-color: #ffffff; */
+    border: 1px solid #ffffff !important;
+    color:#ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
 @media (max-width:780px){
     .explore-content{
         flex-wrap: nowrap;
@@ -41,12 +61,11 @@
     .explore-title>h1{
         font-size: 20px !important;
     }
-}
-@media (max-width:780px){
     .explore-title>h1{
         font-size: 12px !important;
     }
 }
+
 .explore-title{
     margin-top: 10px;
     padding: 10px;
@@ -106,8 +125,7 @@ font-size: 10px;
 .explore-button button{
     border: none;
     outline: none;
-    width: 200px;
-    height: 20px;
+    height:auto;
     font-size: 20px;
     background-color: transparent;
     color: #ffffff;
@@ -116,4 +134,7 @@ font-size: 10px;
 .explore-icon{
     color: #ffffff;
     font-size: 40px;
+}
+@media screen {
+    
 }

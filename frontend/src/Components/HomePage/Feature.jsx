@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../Styles/Feature.css'
 import featureImage from '../../Image/featureImage.png'
+import {IoLocationOutline} from 'react-icons/io5'
 
 
 
@@ -13,7 +14,7 @@ const Feature = () => {
                 <div className='featureRow'>
                     <div className='featureRow1'>
                     <h1>FEATURED RESIDENTIAL CENTERS</h1>
-                    <p>Lorem ipsum dolor sit amet,</p>
+                    <p><IoLocationOutline/>Lorem ipsum dolor sit amet,</p>
                     <h3>Featured Residential Centers</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../Styles/SinglePage.css";
-import Main from "../../Image/SinglePage/Main.png";
+import side5 from "../../Image/SinglePage/side5.png";
 import side1 from "../../Image/SinglePage/side1.png";
 import side2 from "../../Image/SinglePage/side2.png";
 import side3 from "../../Image/SinglePage/side3.png";
@@ -18,7 +18,7 @@ const ListPages = () => {
         <div className="page-row">
           <div className="page-row1">
             <div className="page-rowImg">
-              <img src={Main} alt="mainpic"></img>
+              <img src={side5} alt="mainpic"></img>
             </div>
           </div>
           {/* </div>
@@ -85,7 +85,7 @@ const ListPages = () => {
         </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default ListPages;

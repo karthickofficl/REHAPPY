@@ -6,6 +6,8 @@
     height:fit-content;
     background-position: center center;
     background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif; 
+
 }
 .sliderMain img{
     background-image: linear-gradient(0deg, rgba(10, 63, 28, 0.6), rgba(42, 74, 108, 0.6));

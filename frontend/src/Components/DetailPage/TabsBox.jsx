@@ -17,7 +17,7 @@ const TabsBox = () => {
 
   return (
     <div className='tabMain'>
-      <div className='tabContianer'>
+      <div className='tabContainer'>
       <Tabs
     id="controlled-tab-example"
     activeKey={key}

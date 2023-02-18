@@ -5,6 +5,8 @@ import explore2 from "../../Image/explore2.png";
 import explore3 from "../../Image/explore3.png";
 import { BsArrowRight } from "react-icons/bs";
 // import Carousel from "react-bootstrap/Carousel";
+import {BsArrowRightCircle} from "react-icons/bs"
+import {BsArrowLeftCircle} from "react-icons/bs"
 
 const explore = [
   {
@@ -32,7 +34,10 @@ const Explore = () => {
           <h1>EXPLORE TOP TREATMENT DESTINATION AROUND THE WORLD</h1>
         </div>
         <div className="explore-header explore-scroll">
+        <span><BsArrowLeftCircle/></span>
           <div className="explore-content">
+
+
             {explore.map((item, index) => (
             <div key={index} className='explore-contentMain'>
                             <div className='explore-image'>
@@ -44,15 +49,16 @@ const Explore = () => {
                             </div>
             </div>
             ))}
+
           </div>
+          <span><BsArrowRightCircle/></span>
 
           <div></div>
         </div>
         <div className="explore-button">
-          <span>
-            <button>View All Destination</button>
-            <BsArrowRight className="explore-icon" />
-          </span>
+            <button>View All Destination<BsArrowRight className="explore-icon" />
+</button>
+
         </div>
       </div>
     </div>

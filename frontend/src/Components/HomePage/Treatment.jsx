@@ -46,7 +46,7 @@ const data = [
         title: 'Featured Resident Area',
         location: 'Lorem ipsum dolor sit amet',
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua........'
-    },
+    }
 ]
 
 
@@ -84,9 +84,11 @@ const Treatment = () => {
                                     <div className='treatment-image'>
                                         <img src={item.image} alt={item.title}></img>
                                     </div>
+                                        <div className='treatment-Content'>
                                         <h3>{item.title}</h3>
                                         <h6><IoLocationOutline/>{item.location}</h6>
                                         <p>{item.content}</p>
+                                        </div>
                                 </div>
                             ))
                         }

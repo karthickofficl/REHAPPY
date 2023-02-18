@@ -16,6 +16,8 @@
     align-items: center ;
     flex-direction: column;
     color: #ffffff;
+    font-family: 'Poppins', sans-serif; 
+
 }
 .footerTitle{
     font-size: 25px;
