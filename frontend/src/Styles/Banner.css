@@ -26,17 +26,17 @@
     align-items: center;
 }
 .banner-page:last-child{
-    flex: 30%;
+    /* flex: 30%; */
     background: rgba(203, 203, 203, 0.5);
         opacity:3;
     border: 1px solid rgba(184, 183, 183, 0.5);
     /* backdrop-filter: blur(1px); */
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15px);
-    border-radius: 10px;
+    border-radius: 20px;
     filter: brightness(1);
 }
 .banner-pageTitle{
-    width: 100%;
+    /* width: 100%; */
     margin: 10px;
     padding: 10px;
     color: #ffffff;
@@ -46,22 +46,26 @@
     font-size: 40px;
 }
 .banner-search{
-    min-width: 400px;
+    /* min-width: 400px; */
     height: auto;
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items:flex-start;
     flex-direction: column;
     opacity: 1;
     border-radius: 20px;
+    padding:2.5rem;
 }
 .banner-searchPara{
-    margin: 10px;
-    letter-spacing: 2px;
+    /* margin: 10px; */
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
+    text-align: left !important;
+}
+.banner-searchPara>p{
+    margin-bottom: 0px !important;
 }
 .banner-searchPara strong{
     color: #103E35;
@@ -73,27 +77,27 @@
     flex-direction: column;
 }
 .banner-select select{
-    width: 80%;
+    width: 100%;
     margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
     letter-spacing: 2px;
     border: none;
     outline: none;
-    /* font-size: 10px; */
+    
 }
 .banner-select option{
     background-color: #103E35;
     color: #ffffff;
     font-size: 14px;
 }
-.banner-search>button{
+.banner-search button{
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: none;
     outline: none;
-    width: 40%;
+    width: 100%;
     background-color:#103E35;
     color: #ffffff;
     cursor: pointer;
@@ -167,7 +171,7 @@
     width: 100%;
     margin: 20px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     letter-spacing: 2px;
     border: none;
     outline: none;
@@ -205,17 +209,18 @@
         color: #ffffff;
         font-size: 10px;
     }
+    .banner-pageTitle>h2{
+        font-size: 30px;
+    }
 
 }
 @media (max-width:450px) {
 
     .banner-searchPara{
-        margin: 10px;
-        letter-spacing: 2px;
-        font-size: 10px;
+        font-size: 16px;
         display: flex;
         justify-content: flex-start;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     .banner-pageTitle>h2{
@@ -226,6 +231,16 @@
     .banner-select{
         flex-direction:column;
 
+    }
+    .banner-select select{
+        width: 100%;
+        margin: 20px;
+        padding: 10px 10px;
+        border-radius: 5px;
+        letter-spacing: 2px;
+        border: none;
+        outline: none;
+        
     }
     .banner-select option{
         /* background-color: #103E35; */    

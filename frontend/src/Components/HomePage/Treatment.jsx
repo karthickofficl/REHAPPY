@@ -54,7 +54,9 @@ const Treatment = () => {
     return (
         <div className='treatment-container'>
             <div className='treatment-main'>
+                <div className='treatment-mainTitle'>
                 <h1>Treatment Methods</h1>
+                </div>
                 <div className='treatment-header headingTitle'>
                     <div className='Tab-headingTitle'>
                         <div className='treatment-title'>
@@ -73,7 +75,14 @@ const Treatment = () => {
                             Asia Rehab Centers
                         </div>
                     </div>
+                    <div>
+ 
+                        <button>
+                            view all
+                        </button>
+                    </div>
                 </div>
+               
                 <div className='treatment-header  headingTitleBox'>
                     <div className='treatment-headerBox'>
                         {

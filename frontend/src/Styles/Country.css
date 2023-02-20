@@ -62,6 +62,14 @@
         font-size: 20px;
     }
 }
+@media (max-width:500px){
+    .country-header{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif; 
+    
+    }
+}
 .country-list>div:hover{
     flex: 5;
     writing-mode: horizontal-tb;

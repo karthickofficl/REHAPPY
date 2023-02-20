@@ -175,7 +175,10 @@
     }
     .page-rowImg{
         width:310px;
-        height:290px;
+        height:260px;
+    }
+    .page-row{
+        gap: 1rem;
     }
     .page-rowImg>img{
         width:100%;

@@ -9,10 +9,10 @@ const Advertise = () => {
         <div className='advetise-container'>
             <div className='advertise-title postion'>
                 <p>AD</p>
-            </div>
+            </div>  
             <div className='advertise-content'>
-                <h1>Featured Residential Centers
-                </h1>
+                <h5>Featured Residential Centers
+                </h5>
             </div>
             <div className='advertise-para'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

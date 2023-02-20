@@ -24,6 +24,16 @@ const explore = [
     title: "Arizona",
     content: "Escape to the desert for amazing treatment",
   },
+  {
+    image: explore1,
+    title: "Colorado",
+    content: "Experience natural beauty while in treatment.",
+  },
+  {
+    image: explore2,
+    title: "Bali",
+    content: "Travel to a tropical oasis for quality treatment",
+  },
 ];
 
 const Explore = () => {

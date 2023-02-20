@@ -1,15 +1,19 @@
 .explore-main{
     width: 100%;
     height:auto;
+    background-color: #103E35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .explore-container{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    background-color: #103E35;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
     padding: 10px;
     font-family: 'Poppins', sans-serif; 
 
@@ -28,7 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    justify-content: flex-start;
 }
 .explore-scroll>span{
     display: flex;
@@ -49,14 +54,10 @@
     width: 30px;
     height: 30px;
 }
-@media (max-width:780px){
-    .explore-content{
-        flex-wrap: nowrap;
-    }
-    .explore-scroll{
-        overflow-x: auto;
-        justify-content: flex-start;
-
+@media (max-width:900px){
+    .explore-container{
+        width: 90%;
+    
     }
     .explore-title>h1{
         font-size: 20px !important;
@@ -65,6 +66,7 @@
         font-size: 12px !important;
     }
 }
+
 
 .explore-title{
     margin-top: 10px;
@@ -135,6 +137,57 @@ font-size: 10px;
     color: #ffffff;
     font-size: 40px;
 }
-@media screen {
-    
+
+@media(max-width:600px) {
+    .explore-container{
+        width: 100%;
+    }
+    .explore-contentMain{
+        width: 200px;
+        height: 120px;
+        position: relative;
+        border-radius:10px;
+    }
+    .explore-image{
+        width: 150px !important;
+        height:100px;
+        border-radius:10px;
+    }
+    .explore-mainTitle{
+        position: absolute;
+        text-align: center;
+        right: 5px;
+        left: 5px;
+        bottom:20px;
+        color: #ffffff;
+        background-image: linear-gradient(0deg, rgba(1, 2, 4, 0.9), rgba(0, 0, 0, 0.9)) ;
+       border-radius: 10px;
+    }
+    .explore-scroll svg{
+
+        width: 15px;
+        height: 15px;
+    }
+    .explore-mainTitle>h3{
+        font-size: 9px !important;
+        margin: 0px !important;
+
+    }
+    .explore-mainTitle>p{
+    font-size: 8px !important;
+    margin: 0px !important;
+    }
+    .explore-button button{
+        border: none;
+        outline: none;
+        height:auto;
+        font-size: 10px;
+        background-color: transparent;
+        color: #ffffff;
+        margin-left: 10px;
+    }
+    .explore-icon{
+        color: #ffffff;
+        font-size: 15px;
+    }
 }

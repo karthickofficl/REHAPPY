@@ -68,10 +68,11 @@ const Banner = () => {
                           }
                         </optgroup>
                     </select>
-                    </div>
                     <button>
                         Get well soon
                     </button>
+                    </div>
+                    
                 </div>
             </div>
         </div>

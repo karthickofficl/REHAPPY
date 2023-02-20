@@ -26,7 +26,6 @@
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
     justify-content: center;
     align-items: center;
 }
@@ -40,29 +39,52 @@
     width: 190px;
     height: 190px;
 }
+.staffScroll{
+    gap: 1rem;
+}
 .staffScroll>span{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
+    min-width: 200px;
+    min-height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: contain;
 }
-.staffScroll>span>img{
-    position: relative;
+.staffScroll span:nth-child(1){
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.2) 54.98%, #000000 100%), url('../Image/DetailStaff/staff1.png');
+   
+}
+.staffScroll span:nth-child(2){
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.2) 54.98%, #000000 100%), url('../Image/DetailStaff/staff2.png');
+   
+}.staffScroll span:nth-child(3){
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.2) 54.98%, #000000 100%), url('../Image/DetailStaff/staff3.png');
+   
+}.staffScroll span:nth-child(4){
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.2) 54.98%, #000000 100%), url('../Image/DetailStaff/staff4.png');
+   
+}.staffScroll span:nth-child(5){
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.2) 54.98%, #000000 100%), url('../Image/DetailStaff/staff5.png');
+   
 }
 
 .staffScroll h5{
-    position: absolute;
+    /* position: absolute;
     bottom: 35px;
     right: 0px;
-    left:60px;
+    left:60px; */
     font-size: 15px;
     color: #ffffff;
 }
 .staffScroll p{
-    position: absolute;
+    /* position: absolute;
     bottom:0px;
     right: 0px;
-    left:50px;
+    left:50px; */
     font-size: 13px;
     color: #ffffff;
 }
@@ -80,6 +102,9 @@
     }
     .staffMain{
         min-height:40vh;
+    }
+    .staffImgs{
+        overflow-x:scroll;
     }
 }
 @media (max-width:500px){

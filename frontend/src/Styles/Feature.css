@@ -99,23 +99,34 @@
       .feature-container{
         padding:2rem 0rem;
         gap: 2rem;
+        height: fit-content;
     }
     .feature-main{
         height: auto;
         }
-        .featureRow2{
+        .featureRow1{
+            display: flex;
+            justify-content:center !important;
+            align-items: center !important ;
+                
+        }
+    .featureRow2{
             width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 300px;
-            height: 300px;
-        }
-            .featureRow1>p{
+                width: 200px;
+                height: 200px;
+    }
+        .featureRow1>p{
         width: 250px;
-}
-.featureRow1>p{
-    width:;
-    color: #C3C3C3;
-}
+        font-size: 12px;
+    }
+    .featureRow1 h1{
+        font-size: 14px;
+    }
+    .featureRow1 h3{
+        font-size: 14px;
+
+    }
 }

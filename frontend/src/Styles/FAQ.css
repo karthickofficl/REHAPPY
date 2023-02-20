@@ -89,3 +89,12 @@
         height:auto;
     }
 }
+@media (max-width:500px) {
+    .accordion-body{
+        font-size: 12px;
+    }
+    .accordion-button {
+        font-size: 14px !important;
+    }
+   
+}

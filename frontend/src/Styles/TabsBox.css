@@ -49,8 +49,23 @@
     border-top-left-radius: 0px !important;
     border-top-right-radius:0px !important;
 }
-body{
-    font-family: 'Poppins', sans-serif !important; 
+.nav-tabs {
+    border-width: 0px !important;
+}
+@media (max-width:600px) {
+    .nav{
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+         overflow-y:hidden;
+    }
+    /* .nav .nav-tabs .nav-link {
+        white-space: nowrap;
+      } */
+      ul.mb-3.nav.nav-tabs { 
+        overflow-y: hidden; 
+        overflow-x: scroll; 
+        max-width: 100%;
+     }
 }
 
 /* ..................................... */
