@@ -10,10 +10,11 @@ const Header = () => {
   return (
     <div className='Header-main'>
        <Navbar sticky="top" expand='lg'>
-        <Container >
+        <Container>
         <Navbar.Brand href="#home">REHABPY</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" >
+          <span className='navImg'>
            <Nav className="" >
           <img src={Menu} alt='menu'/>
            </Nav>
@@ -25,6 +26,7 @@ const Header = () => {
             <Nav.Link href="#pricing">Contact</Nav.Link>
             <Nav.Link><Search/></Nav.Link>
           </Nav>
+          </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
