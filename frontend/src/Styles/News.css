@@ -150,6 +150,10 @@ background-color: transparent;
 }
 
 @media (max-width:900px) {
+    .newsMain{
+        justify-content:flex-start;
+        align-items:flex-start;
+    }
     .newsContainer{
         width: 100%;
         height:auto;

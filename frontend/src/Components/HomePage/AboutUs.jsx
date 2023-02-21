@@ -55,7 +55,6 @@ const AboutUs = () => {
                          autoPlay
                     ref={videoRef}
                     onClick={handleToggle}
-
                     >
                     </video>
                     

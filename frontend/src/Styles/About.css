@@ -85,7 +85,7 @@
     }
     .aboutRow2>video{
         width: 100% !important;
-        height:auto !important;
+        height:100% !important;
     }
     
     .AboutContainer{
