@@ -71,7 +71,7 @@
     }
 }
 .country-list>div:hover{
-    flex: 5;
+    flex: 4;
     writing-mode: horizontal-tb;
 }
 
@@ -86,7 +86,7 @@
     transition: all .8s cubic-bezier(.25,.4,.45,1.4);
 }
 .country-list>div:hover{
-    flex: 5;
+    flex: 4;
     writing-mode: horizontal-tb;
 }
 .country-listMap:nth-child(4){

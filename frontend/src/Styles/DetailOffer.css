@@ -135,6 +135,17 @@
 
 }
 @media (max-width:450px) {
+ 
+    .offerTitle>h3{
+        font-size: 14px;
+        text-align: center;
+        color: #103E35;
+    }
+    .offerTitle>p{
+        font-size:10px;
+        text-align: center;
+        color: #444444;
+    }
     .offerDiv{
         flex-direction:column;
     }
@@ -169,20 +180,19 @@
     }
     .offerDiv div:nth-child(2){
         height: 200px;
-        width: 315px;
+        width: 318px;
     }
 
 }
 @media (max-width:380px) {
 
     .offerImg{
-        min-width:220px;
         max-width: 340px;
         height:200px;
     }
     .offerDiv div:nth-child(2){
         height: 200px;
-        width: 300px;
+        width: 320px;
     }
 
 }
@@ -203,7 +213,10 @@
 
     .offerDiv div:nth-child(2){
         height: 200px;
-        width: 255px;
+        width: 250px;
     } 
-
+    .offerImg{
+        max-width: 250px;
+        height:200px;
+    }
 }

@@ -86,7 +86,7 @@
 .queryButton button{
     border: none;
     outline: none;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 20px;
     font-size: 15px;
     background-color:  #103E35;
@@ -158,14 +158,14 @@
         min-width:170px ;
         border: none;
         outline: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 10px;
         font-size: 15px;
     }
     .queryInput select{
         min-width: 170px;
         padding: 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         letter-spacing: 2px;
         border: none;
         outline: none;
@@ -178,7 +178,7 @@
         width:80%;
         border: none;
         outline: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 10px;
         font-size: 15px;
         resize: none;
@@ -201,7 +201,7 @@
         width:100%;
         border: none;
         outline: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 10px;
         margin: 10px;
         font-size: 15px;
@@ -211,7 +211,7 @@
         padding: 10px;
         margin: 10px;
 
-        border-radius: 10px;
+        border-radius: 5px;
         letter-spacing: 2px;
         border: none;
         outline: none;
@@ -224,16 +224,16 @@
         width:80%;
         border: none;
         outline: none;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 10px;
         font-size: 15px;
         resize: none;
     }
     .queryContent h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     .queryImg>img{
         max-width:250px;
-        height:300px;
+        height:200px;
     }
 }

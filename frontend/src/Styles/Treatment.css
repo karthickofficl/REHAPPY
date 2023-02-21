@@ -29,7 +29,11 @@
     justify-content: center ;
 }
 
-
+.treatment-mainTitle>h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #103E35;
+}
 .treatment-title{
     margin: 10px; 
     font-size: 18px;
@@ -112,20 +116,20 @@
 }
 
 .treatment-button{
-    width: 250px;
+    width: 200px;
     height:auto;
     border:none;
     outline: none;
     border-radius: 10px;
     background-color: #103E35;
     color: #ffffff;
-    font-size: 22px;
-    padding: 10px;
-    font-weight: 600;
+    font-size: 19px;
+    padding: 10px 10px;
+    font-weight: 500;
 }
 .treatment-icon{
         width: 100px;
-    font-size:40px;
+    font-size:30px;
 }
 .treatment-Content{
     display: flex;

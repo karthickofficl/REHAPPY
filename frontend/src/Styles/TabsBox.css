@@ -6,7 +6,7 @@
     align-items: center;
 }
 .tabContainer{
-    width: 90%;
+    width: 85%;
     height: 100%;
     display: flex;
     justify-content:flex-start;
@@ -43,6 +43,7 @@
 .mb-3>.nav-item>.nav-link{
     color: #7D7D7D !important;
     padding: 10px 30px !important;
+    
 }
 .nav-tabs .nav-link {
     border:0px !important;
@@ -65,6 +66,9 @@
         overflow-y: hidden; 
         overflow-x: scroll; 
         max-width: 100%;
+     }
+     .nav-link{
+        font-size: 14px !important;
      }
 }
 
@@ -107,6 +111,15 @@
     .highContainer{
         gap: 1rem;
         padding:5px 5px;
+    }
+    .highContent>h4{
+        font-size: 13px;
+    }
+    .highContent>p{
+        font-size: 10px;
+    }
+    .highContent>img{
+        width:30px;
     }
 }
 
@@ -420,6 +433,14 @@
         align-items:flex-start;
         gap:0.3rem;
         flex-direction: column;
+    }
+    .aboutContent>h1{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .aboutContent>p{
+      font-size: 12px;
     }
 }
 

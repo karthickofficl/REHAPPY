@@ -4,7 +4,7 @@ import { Search } from 'react-bootstrap-icons';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import Menu from '../../Image/Frame.png'
 
 const Header = () => {
   return (
@@ -14,7 +14,8 @@ const Header = () => {
         <Navbar.Brand href="#home">REHABPY</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto" >
+          <img src={Menu} alt='menu'/>
+            <Nav className="me-auto" >
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#features">Location</Nav.Link>
             <Nav.Link href="#pricing">Conditions</Nav.Link>

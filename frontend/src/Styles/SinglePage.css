@@ -14,7 +14,7 @@
     flex-direction: column;
     background: #F2F2F2;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     font-family: 'Poppins', sans-serif; 
     margin: 20px 10px;
@@ -33,7 +33,6 @@
 .page-rowImg{
     width:470px;
     height: 310px;
-    /* position: relative; */
 }
 .page-rowImg>img{
     width: 100%;
@@ -55,9 +54,10 @@
     color:#103E35;
 }
 .pageLocation{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     font-size: 14px;
 }
 .pageLocation button{
@@ -175,7 +175,7 @@
     }
     .page-rowImg{
         width:310px;
-        height:260px;
+        height:230px;
     }
     .page-row{
         gap: 1rem;
@@ -230,9 +230,9 @@
         flex-direction:column;
     }
     .page-rowImg{
-        width:300px;
+        width:320px !important;
         margin-left: 10px;
-        height:210px;
+        height:200px !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -242,38 +242,42 @@
         height:100%;
     }
     .page-row2{
-        gap:0.4rem;
+        gap:5px;
     }
     .pageButtonList button{
-        font-size: 10px;
-        padding:5px 10px;
-        border-radius: 5px;
+        font-size: 9px;
+        font-weight: 400;
+        padding:2px 4px;
+        border-radius: 2px;
     }
     .Pagestars{
         gap:0.2rem;
     }
     .Pagestars>span{
-        font-size: 13px;
+        font-size: 10px;
     }
     .page-row2Title>h2{
-        font-size: 15px;
+        font-size: 12px;
     }
     .pagePara{
+        font-size: 9px;
+    }
+    .pageprice>p{
         font-size: 10px;
+    }
+    .pageprice h2{
+        font-size: 10px !important;
     }
     .pageprice{
         height: 30px;
-    }
-    .pageEnd h2{
-        font-size: 15px;
     }
     .pageBookBtn button{
         border: none;
         outline: none;
         background-color:  #103E35;
-        font-size: 14px;
-        padding:8px 10px;
-        border-radius: 5px;
+        font-size: 10px;
+        padding:3px 5px;
+        border-radius: 2px;
         color: #ffffff;
     }
     .paga-rowImg span{
@@ -284,6 +288,9 @@
         width: 130px;
         height: 90px;
         font-size: 12px;
+    }
+    .pageLocation>span{
+        font-size: 10px;
     }
     .pageLocation button{
         display:block;
@@ -297,8 +304,9 @@
 }
 @media (max-width:325px) {
     .page-rowImg{
-        width:250px;
-        height:210px;
+        width:250px !important;
+        margin-left: 10px;
+        height:150px !important;
         display: flex;
         justify-content: center;
         align-items: center;
