@@ -14,7 +14,9 @@ const Header = () => {
         <Navbar.Brand href="#home">REHABPY</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
+           <Nav className="" >
           <img src={Menu} alt='menu'/>
+           </Nav>
             <Nav className="me-auto" >
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#features">Location</Nav.Link>
