@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height:80vh;
-    min-height:40vh;
+    max-height:auto;
+    min-height:70vh;
     font-family: 'Poppins', sans-serif; 
 }
 .insurContainer{
